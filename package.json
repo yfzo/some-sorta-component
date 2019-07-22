@@ -1,0 +1,28 @@
+{
+  "name": "some-sorta-component",
+  "version": "0.1.0",
+  "description": "This is some sorta component.",
+  "main": "dist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src.js --out-file dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yfzo/some-sorta-component.git"
+  },
+  "author": "Yifei Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yfzo/some-sorta-component/issues"
+  },
+  "homepage": "https://github.com/yfzo/some-sorta-component#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
